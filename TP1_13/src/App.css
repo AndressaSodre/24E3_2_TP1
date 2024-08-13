@@ -1,0 +1,23 @@
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.imagem-container {
+  text-align: center;
+}
+
+.imagem-container img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.imagem-container p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
